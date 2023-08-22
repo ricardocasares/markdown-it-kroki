@@ -1,0 +1,82 @@
+{
+  "name": "markdown-it-korki",
+  "version": "0.0.1",
+  "description": "katex plugin for MarkdownIt",
+  "keywords": [
+    "markdown",
+    "markdownit",
+    "markdown-it",
+    "markdown-it-plugin",
+    "kroki",
+    "blockdiag",
+    "bpmn",
+    "bytefield",
+    "seqdiag",
+    "actdiag",
+    "nwdiag",
+    "packetdiag",
+    "rackdiag",
+    "d2",
+    "dbml",
+    "ditaa",
+    "erd",
+    "excalidraw",
+    "graphviz",
+    "mermaid",
+    "nomnoml",
+    "pikchr",
+    "plantuml",
+    "structurizr",
+    "svgbob",
+    "symbolator",
+    "tikz",
+    "umlet",
+    "vega",
+    "vega-lite",
+    "wavedrom",
+    "wireviz"
+  ],
+  "homepage": "https://github.com/ricardocasares/markdown-it-kroki",
+  "bugs": {
+    "url": "https://github.com/ricardocasares/markdown-it-kroki/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardocasares/markdown-it-kroki.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ricardo Casares",
+    "url": "https://analogic.al"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@types/markdown-it": "^13.0.0",
+    "@types/xmlhttprequest": "^1.8.0",
+    "markdown-it": "^13.0.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.3",
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6"
+  },
+  "tsup": {
+    "dts": true,
+    "entry": [
+      "index.ts"
+    ],
+    "format": [
+      "esm",
+      "cjs"
+    ]
+  }
+}
