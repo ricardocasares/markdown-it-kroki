@@ -40,10 +40,7 @@
   "bugs": {
     "url": "https://github.com/ricardocasares/markdown-it-kroki/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ricardocasares/markdown-it-kroki.git"
-  },
+  "repository": "github:ricardocasares/markdown-it-kroki",
   "license": "MIT",
   "author": {
     "name": "Ricardo Casares",
